@@ -1,0 +1,20 @@
+{
+  "name": "sing-page-full-stack-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cltn39/sing-page-full-stack-app.git"
+  },
+  "author": "Chris Song",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cltn39/sing-page-full-stack-app/issues"
+  },
+  "homepage": "https://github.com/cltn39/sing-page-full-stack-app#readme"
+}
