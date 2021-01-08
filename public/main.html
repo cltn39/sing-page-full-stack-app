@@ -26,23 +26,29 @@
   </div>
 
   <div class="container">
-
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
-        <p class="cool-font">Title</p>
-        <input class="form-control" type="text" id="author" placeholder="Enter Your Name">
+        <p id="apod-title" class="cool-font">APOD:</p>
+        <img id="apod-image"src="https://designshack.net/wp-content/uploads/placeholder-image.png" alt="Astronomy Picture of the Day">
+        <div id="apod-detail"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <p class="cool-font">User Name:</p>
+        <input class="form-control" type="text" id="title" placeholder="Enter Your Name">
         <br>
-        <p class="cool-font">Comment</p>
-        <textarea class="form-control" rows="3" id="comment-box" placeholder="Enter Chirp Here!"></textarea>
-        <button id="chirp-submit" class="btn btn-lg pull-right">Submit!</button>
+        <p class="cool-font">Comment:</p>
+        <textarea class="form-control" rows="3" id="comment-box" placeholder="Enter your comment"></textarea>
+        <button id="comment-submit" class="btn btn-lg pull-right">Submit!</button>
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
-        <h2>DISCUSSION:</h2>
+        <h2>DISCUSSION</h2>
         <hr>
-        <div id="chirp-area"></div>
+        <div id="comment-area"></div>
       </div>
     </div>
 

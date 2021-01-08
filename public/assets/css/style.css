@@ -1,9 +1,18 @@
-.chirp {
+.reply {
     padding: 10px;
     margin: 10px;
     background-color: #e8f9ff;
   }
-  
+.apod {
+  padding: 10px;
+    margin: 10px;
+    background-color: #e8f9ff;
+}
+
+.apod p {
+  font-family: Shrikhand, cursive;
+}
+
   .cool-font {
     font-family: Shrikhand, cursive;
     font-size: 24px;
@@ -36,3 +45,7 @@
     font-size: 16px;
   }
   
+  img {
+    width: 45rem;
+    height: 45rem;
+  }
