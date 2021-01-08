@@ -4,5 +4,5 @@ const controller = require("../../controller/controller");
 // Matches with "/api/posts"
 router.route("/").get(controller.findAllPost);
 // Matches with "/api/posts/new"
-router.route("/new").get(controller.CreateNewPost);
+router.route("/new").get(controller.createNewPost);
 module.exports = router;

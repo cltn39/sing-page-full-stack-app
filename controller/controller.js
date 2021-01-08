@@ -15,8 +15,7 @@ module.exports = {
       res.json(dbPost);
     });
   },
-  CreateNewPost: function (req, res) {
-    console.log(req.body);
+  createNewPost: function (req, res) {
     db.Post.create({
       title: req.body.title,
       body: req.body.body,
@@ -26,5 +25,4 @@ module.exports = {
         res.json(dbPost)
       });
   },
-
 };
